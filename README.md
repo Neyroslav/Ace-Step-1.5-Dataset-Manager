@@ -1,7 +1,8 @@
 # Ace Step 1.5 Dataset Manager
 
 ![Demo](Demo.png)
-[▶️ View GIF Demo](https://raw.githubusercontent.com/Neyroslav/Ace-Step-1.5-Dataset-Manager/main/Demo.gif)
+
+[▶️ View GIF Demo](https://github.com/Neyroslav/Ace-Step-1.5-Dataset-Manager/blob/main/Demo.gif)
 
 A desktop utility for preparing and editing music datasets for **ACE Step 1.5 / LoRA training**.
 
