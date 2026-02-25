@@ -1,6 +1,6 @@
 # Ace Step 1.5 Dataset Manager
 
-![Demo](Demo.gif)
+![Demo](Demo.png)
 
 A desktop utility for preparing and editing music datasets for **ACE Step 1.5 / LoRA training**.
 
