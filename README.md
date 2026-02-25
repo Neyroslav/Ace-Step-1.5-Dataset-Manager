@@ -2,7 +2,19 @@
 
 A desktop utility for preparing and editing music datasets for **ACE Step 1.5 / LoRA training**.
 
-Built with **Qt 6 (Qt Widgets / Qt Multimedia)**.
+## Download
+
+Download the latest version from the Releases page:
+
+👉 https://github.com/Neyroslav/Ace-Step-1.5-Dataset-Manager/releases
+
+### Installation
+
+1. Download the .zip archive.
+2. Extract it to any folder.
+3. Run AceStep15DatasetManager.exe
+
+No installation required.
 
 ## Overview
 
@@ -12,7 +24,7 @@ This tool helps you manage a dataset of audio tracks and edit per-track metadata
 - Edit dataset-level metadata (`name`, `custom_tag`, `tag_position`, `all_instrumental`, `genre_ratio`)
 - Edit per-track fields (`Caption`, `Lyrics`, `Genre`, `BPM`, `Key`, `Time Sig`, `Duration`, `Language`, etc.)
 - Preview audio directly inside each track card
-- Save in a JSON format compatible with ACE Step-style dataset workflows
+- Save in a JSON format compatible with ACE Step-gradio dataset workflows
 
 ## Features
 
@@ -67,34 +79,6 @@ Default media hotkeys:
 - `Alt+Right` -> Seek forward
 
 Seek step is configurable in Settings (seconds).
-
-## JSON Behavior
-
-- JSON fields are saved in a **fixed explicit order** (not alphabetical)
-- `created_at` is generated on save in this format:
-  - `YYYY-MM-DDTHH:MM:SS.ffffff`
-- `raw_lyrics` is always written as:
-  - `""`
-- `tag_position` values:
-  - `prepend`
-  - `append`
-  - `replace`
-
-## UI / Theme
-
-- The app forces a dark Qt theme (`Fusion` + custom dark palette) for consistent appearance across systems
-
-## Help Markdown Files
-
-Tutorial windows load Markdown files from `Help/` next to the executable.
-
-Example layout:
-
-```text
-build/Debug/MusicDatasetManager.exe
-build/Debug/Help/About Caption - The Most Important Input.md
-build/Debug/Help/About Lyrics - The Temporal Script.md
-```
 
 ## Build (Qt / CMake)
 
